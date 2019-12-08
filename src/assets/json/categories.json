@@ -1,0 +1,23 @@
+[{
+    "categoryName": "Pizza",
+    "img": "assets/img/pizza.jpg",
+    "items": [
+        {"name": "Veg Pizza", "price": 500, "img": "assets/img/veg-piza.jpg", "quantity": 0},
+        {"name": "Cheese Pizza", "price": 600, "img": "assets/img/pizza.jpg", "quantity": 0}
+    ]
+},
+{
+    "categoryName": "Drinks",
+    "img": "assets/img/Drinks.png",
+    "items": [
+        {"name": "Coka Cola", "price": 40, "img": "assets/img/coca cola_2.jpg", "quantity": 0},
+        {"name": "7 UP", "price": 50, "img": "assets/img/7up.jpg", "quantity": 0}
+    ]
+},{
+    "categoryName": "Snacks",
+    "img": "assets/img/Snacks.jpg",
+    "items": [
+        {"name": "Samosa", "price": 20,"img": "assets/img/samosa.jpg", "quantity": 0},
+        {"name": "Masala Dosa", "price": 50,"img": "assets/img/masaladosa.jpg", "quantity": 0}
+    ]
+}]

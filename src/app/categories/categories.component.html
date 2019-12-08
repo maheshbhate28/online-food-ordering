@@ -1,0 +1,18 @@
+<app-header [cartItemNo]="cartItemNo"></app-header>
+<div class="container">
+    <div class="row caption">
+        <div class="col-md-12">
+            <h5>select your favourite {{item | lowercase}}</h5>
+        </div>
+    </div>
+    <div class="row center">
+        <div class="col-md-3 box" *ngFor="let item of itemsArray; let i=index">
+            <img [src]="item.img" height="150px" width="100%" alt="" />
+            <div><b>{{item.name}}</b></div>
+            <div><b>{{item.price | currency:'₹'}}</b></div>
+            <div class="border"><span class="dec-span">Quantity</span><label
+                    class="align">{{item.quantity}}</label></div>
+            <div><button class="btn-warning width" (click)="addtoCart(itemsArray[i])" type="submit"><img src="../../assets/img/cart1.png" height="20px" width="20px" alt="Submit"> Add to cart</button></div>
+        </div>
+    </div>
+</div>

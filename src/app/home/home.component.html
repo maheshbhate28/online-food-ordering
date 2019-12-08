@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="container">
+    <div class="row center">
+        <div class="col-md-3 box" *ngFor="let item of data" (click)="itemDetails(item.categoryName)">
+            <img [src]="item.img" height="250px" width="250px" alt="" />
+            <hr>
+            <div><b>{{item.categoryName}}</b></div>
+        </div>
+    </div>
+</div>

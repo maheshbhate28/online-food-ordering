@@ -1,0 +1,74 @@
+.caption {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header {
+    height: 45px;
+    box-shadow: 5px 10px 18px lightgray;
+    vertical-align: bottom;
+
+}
+
+.headcss {
+    padding-top: 20px;
+    padding-left:25px;
+}
+
+.center {
+    margin-top: 50px;
+}
+
+.box {
+    box-shadow: 5px 10px 18px lightgray;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 25px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.box:hover {
+    box-shadow: 5px 10px 18px gray;
+}
+
+.float-right {
+    float: right;
+    font-size: 12px;
+}
+
+.dec-span {
+    float: left;
+    // font-size: 22px;
+    background-color: bisque;
+    /* margin-right: 7px; */
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 32px;
+    width: 80%;
+}
+
+.inc-span {
+    float: right;
+    font-size: 22px;
+    background-color: bisque;
+    /* margin-right: 7px; */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.align {
+    text-align: center;
+    
+}
+
+.border {
+    border-top: solid 1px bisque;
+    border-bottom: solid 1px bisque;
+}
+
+.width {
+    width: 100%;
+    margin-top: 5px;
+}
